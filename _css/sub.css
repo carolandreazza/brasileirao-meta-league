@@ -1,0 +1,429 @@
+
+#subVisual.celebrity{
+  background: #030412 url(../_img/celebrity/banner_celebrity.jpg) no-repeat center center / cover;
+  height: 45rem;
+  position: relative;
+}
+
+#subVisual > .sv_text {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 50%;
+  transform: translatey(-50%);
+  margin-top: 5rem;
+}
+
+#subVisual > .sv_text > h2 {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: left;
+  padding-left: 15rem;
+  font-family: "Alfa Slab One", sans-serif;
+  font-size: 4rem;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+}
+
+#subVisual > .sv_text > h2 span {
+  font-weight: 300;
+  font-family: "Poppins", sans-serif !important;
+}
+
+#sub_container {
+  color: #333;
+  padding: 1rem 1rem;
+}
+
+@media (max-width: 991.98px) {
+  #subVisual {
+    height: 34rem;
+  }
+  #subVisual > .sv_text {
+    margin-top: 4rem;
+  }
+  #subVisual > .sv_text > h2 {
+    padding-left: 5rem;
+    font-size: 3.6rem;
+  }
+}
+
+@media (max-width: 576.98px) {
+  #subVisual {
+    height: 30rem;
+  }
+  #subVisual > .sv_text {
+    margin-top: 4rem;
+  }
+  #subVisual > .sv_text > h2 {
+    padding-left: 3rem;
+    font-size: 3.2rem;
+  }
+}
+
+
+
+/*sec_celebrity*/
+
+.celebrity_wrap{
+  background:#f5f5f5;
+  padding-bottom:-10px !important;
+}
+
+.sec_celebrity{
+  padding:64px 0rem;
+  margin-bottom:5rem;
+}
+.sec_celebrity > ul{
+  list-style:none;
+  padding:0;
+  margin-left:-1.5rem;
+  margin-right:-1.5rem;
+  display:flex;
+  flex-wrap:wrap;
+}
+.sec_celebrity > ul > li{
+  width:calc(100%/3);
+  padding: 2rem;
+}
+.sec_celebrity > ul > li .item{
+  border-radius:3rem;
+  overflow:hidden;
+  background:#fff;
+}
+.sec_celebrity > ul > li .item > p.thum{
+  padding-top:100%;
+  background-position:center center;
+  background-size:cover;
+}
+.sec_celebrity > ul > li .item .box{
+  padding:2rem 3rem;
+  min-height:28.5rem;
+  font-size:1.4rem;
+}
+.sec_celebrity > ul > li .item .box dt{
+  display:flex;
+  border-bottom:1px dashed #ddd;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom:1.5rem;
+  margin-bottom:1.5rem;
+  font-size:1.8rem;
+  font-weight:500;
+}
+.sec_celebrity > ul > li .item .box dt p:last-child a{
+  color:#2db9c5;
+  font-weight:600;
+}
+.sec_celebrity > ul > li .item .box dd{
+  position:relative;
+  color:#555;
+  display:flex;
+}
+.sec_celebrity > ul > li .item .box dd+ dd{
+  margin-top:1rem;
+}
+.sec_celebrity > ul > li .item .box dd > strong{
+  width:9rem;
+  flex-shrink: 0;
+  font-weight:500;
+  color:#222;
+}
+.sec_celebrity > ul > li .item .box dd > p{
+  flex-grow: 1;
+}
+.sec_celebrity > ul > li .item .box dd a{
+  color:inherit;
+}
+.sec_celebrity > ul > li .item .box dd.sns{
+  
+  color:#000;
+  align-items: center;
+}
+.sec_celebrity > ul > li .item .box dd.sns i{
+  font-size:2.2rem;
+  color:inherit
+}
+.sec_celebrity > ul > li .item .box dd.sns a:hover i.xi-instagram{color:#d94c79}
+.sec_celebrity > ul > li .item .box dd.sns a:hover i.xi-twitter{color:#29a4d9}
+.sec_celebrity > ul > li .item .box dd.sns a:hover i.xi-youtube-play{color:#d50a0a;}
+.sec_celebrity > ul > li .item .box dd.sns a:hover i.xi-facebook{color:#3c69a5;}
+
+.sec_celebrity > ul > li .item .box dd.certification a{
+  display:inline-block;
+  padding-right:22px;
+/*   background:url(../_img/sub/sns_certification.png) no-repeat right center / 19px auto; */
+  margin-right:5px;
+}
+
+.footer_celebrity {
+  background:#f5f5f5;
+	margin-top: 0rem;
+  margin-bottom: -1rem;
+}
+
+.footer_celebrity #verde{
+	width: 100%;
+  margin: 5rem 0 -17rem -2px;
+}
+.footer_celebrity #bonecos{
+/* 	width: 100%; */
+	margin: -10.5rem 0 0 108rem;
+}
+
+@media(max-width:1399.98px){
+  .celebrity_banner > div > .title{
+    position:relative;
+    width:30rem;
+    flex-shrink: 0;
+    z-index:1;
+  }
+  .celebrity_banner > div > a{
+    padding:1.5rem 2rem;
+  }
+	.footer_celebrity {	
+		margin-bottom: -5px;	
+    margin-top: -90px;
+	}
+	.footer_celebrity #verde{		
+		max-width: 100%;
+		margin: 10rem 0 -2rem;
+	}
+	.footer_celebrity #bonecos{
+		max-width: 335px;
+		margin: -17.5rem 0 0 73rem;
+	}
+}
+@media(max-width:991.98px){
+  .sec_celebrity > ul > li{
+    width:calc(100%/2);
+    padding:1.5rem;
+  }
+  .celebrity_banner > div > .title strong{
+    font-size:2.4rem;
+  }
+  .celebrity_banner > div > a .date{
+    width:12rem;
+  }
+  .celebrity_banner > div > a .date strong{
+    font-size:4.5rem;
+    line-height:4.5rem;
+  }
+  .celebrity_banner > div > a .date span{
+    font-size:1.8rem;
+  }
+	.footer_celebrity{	
+		margin-bottom: -52px;
+	
+	}
+	.footer_celebrity #verde{		
+		max-width: 100%;
+		margin: 7rem 0 3rem 0px;
+	}
+	.footer_celebrity #bonecos{
+		max-width: 335px;
+		margin: -37.5rem 0 -30px 50rem;
+	}
+}
+
+@media(max-width:767.98px){
+  .celebrity_banner{
+    background:#2db9c5;
+    padding-right:0;
+    padding-left:0;
+  }
+  .celebrity_banner > div{
+    flex-wrap:wrap;
+  }
+  .celebrity_banner > div > .title {
+    background:#710DAF;
+    width:100%;
+    padding:1rem 0px 1rem 15px;
+  }
+  .celebrity_banner > div > .title strong{
+    position:relative;
+    top: auto;
+    transform: translateY(0);
+  }
+  .celebrity_banner > div > .title::after{
+    display:none;
+  }
+  .celebrity_banner > div > a{
+    z-index:2;
+  }
+  .celebrity_banner > div > a .st{
+    font-size:2rem;
+  }
+	.footer_celebrity #verde{	
+		max-width: 100%;
+		margin: 7rem 0 -2rem;
+	}
+	.footer_celebrity #bonecos{
+		max-width: 335px;
+		margin: -2.5rem 0 -30px 50rem;
+	}
+}
+
+@media(max-width:576.98px){
+  .sec_celebrity > ul > li{
+    width:calc(100%/1); 
+    padding:1.5rem;
+  }
+  .celebrity_banner > div > a .date{
+    width:10rem;
+  }
+  .celebrity_banner > div > a::after{
+    display:none;
+  }
+  .celebrity_banner > div > a .more{
+    width:10rem;
+  }  
+  .footer_celebrity {
+    margin-bottom: -5rem;
+  }
+	.footer_celebrity #verde{	
+    max-width: 535px;
+		margin: -1rem 0 -2rem;
+	}
+	.footer_celebrity #bonecos{
+		max-width: 135px;
+		margin: -9rem 0 30px 30rem;
+	}
+  
+}
+
+/*sec times*/
+
+#sec_times .times_wrap .container{
+  padding: 1rem 1rem !important;
+}
+
+#sec_times p {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  color: #030412;	
+  font-size: 2.3rem;
+  text-align: left;
+  margin: 8rem 0 -5rem 0;
+}
+
+#sec_times .times_list {
+	margin-top: 7rem;
+	overflow: hidden;
+}
+
+#sec_times .times_list>ul {
+	list-style: none;
+	padding: 0;
+	display:flex;
+	flex-wrap: wrap;
+}
+
+#sec_times .times_list>ul>li {
+	width: calc(100%/5);
+	padding: 1.5rem 5px;
+}
+
+#sec_times .times_list>ul>li img {
+	max-width: 200px;
+	width: 100%;
+}
+
+#sec_times .times_list_flamengo {
+	margin-top: 10rem;
+	/* overflow: hidden; */
+}
+
+#sec_times .times_list_flamengo>ul {
+	list-style: none;
+	padding: 0;
+	display:flex;
+}
+
+#sec_times .times_list_flamengo>ul>li:nth-child(2) {
+  padding-left: 150px;
+}
+
+#sec_times .times_list_flamengo>ul>li img {
+	width: 100%;
+}
+
+.footer_times {
+	margin-top: 10rem;
+  margin-bottom: -1rem;
+}
+
+.footer_times #verde{
+	width: 100%;
+  margin: 5rem 0 -17rem -2px;
+}
+.footer_times #bonecos{
+  margin: -10.5rem 0 0 108rem;
+}
+
+
+@media(max-width:1399.98px){
+  
+  .footer_times {
+		margin-bottom: -5rem;
+	}
+	.footer_times #verde{		
+		max-width: 100%;
+		margin: 10rem 0 -2rem;
+	}
+	.footer_times #bonecos{
+		max-width: 335px;
+		margin: -17.5rem 0 0 73rem;
+	}
+}
+
+@media(max-width:991.98px){	
+  .footer_times{	
+    margin-bottom: -52px;  
+  }
+  .footer_times #verde{		
+    max-width: 100%;
+    margin: 7rem 0 3rem 0px;
+  }
+  .footer_times #bonecos{
+    max-width: 335px;
+    margin: -37.5rem 0 -30px 50rem;
+  }
+}
+@media(max-width:767.98px) {
+	#sec_times h3 img {
+		width: 100%;
+		max-width: 449px;
+	}
+	
+	.footer_times #verde{	
+		max-width: 100%;
+		margin: 7rem 0 -2rem;
+	}
+	.footer_times #bonecos{
+		max-width: 335px;
+		margin: -2.5rem 0 -30px 50rem;
+	}
+}
+
+@media(max-width:576.98px) {
+	#sec_times h3 img {
+		width: 100%;
+		max-width: 360px;
+	}  
+  #sec_times .times_list_flamengo>ul>li:nth-child(2) {
+    padding-left: 10px;
+  }
+  .footer_times {
+		margin-bottom: -5rem;
+	}
+	.footer_times #verde{	
+	max-width: 535px;
+		margin: -1rem 0 -2rem;
+	}
+	.footer_times #bonecos{
+		max-width: 135px;
+		margin: -9rem 0 30px 30rem;
+	}
+}

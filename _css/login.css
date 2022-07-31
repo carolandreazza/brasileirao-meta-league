@@ -1,0 +1,495 @@
+
+
+#header {
+  background: none;
+}
+#header .head_side_lan {
+  margin-top: 43px;
+}
+#header .head_side_lan a:last-child {
+    margin-left: 60.5rem;
+    font-size: 1rem;
+}
+/*footer*/
+
+#footer {
+	background: #0e1520;
+	padding: 3rem 5rem;
+}
+
+#footer>.inner>div:nth-child(2) {
+	font-size: 1rem;
+}
+
+#footer>.inner>div:nth-child(2)>div:nth-child(2) {
+	font-size: 1rem;
+}
+
+/*sec_login*/
+
+#main_container>section#sec_login {
+	background: #15121d;
+ /*  background: #15121d url(../_img/story_nft_back.png) no-repeat right / 30% auto; */
+  /* height:1190px; */
+  height:600px;
+  text-align: center;
+}
+
+#main_container>section#sec_login .sv_text {
+	position: relative;
+	width: 100%;
+	left: 0;
+	/* transform: translatey(-50%); */
+	/* margin-top: 2rem; */
+  padding-top: 60px;
+  }
+  
+  #main_container>section#sec_login .sv_text>h2 {
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Alfa Slab One", sans-serif;
+    font-size: 4rem;
+    letter-spacing: 0.5rem;
+    margin-bottom: 6rem;
+	  color: #ab09c3;
+  }
+  
+  #main_container>section#sec_login .sv_text>h2 span {
+	font-weight: 300;
+	font-family: "Poppins", sans-serif !important;
+  }
+  
+  
+  #main_container>section#sec_login .er_text {
+    visibility: visible;
+    background-color: #ff3860;
+    color: #fff;
+    border-radius: 4px;
+    padding: 1.25rem 2.5rem 1.25rem 1.5rem;
+    position: relative;
+  }
+  
+  #main_container>section#sec_login .er_text p {
+    font-weight: 300;
+    font-family: "Poppins", sans-serif !important;
+  }
+  
+/* #main_container>section#sec_login .stnft_item {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+} */
+
+#main_container>section#sec_login .login_contents {
+  margin-left: 35%;
+  max-width: 1344px;
+  width: 531px;
+}
+
+#main_container>section#sec_login .login_contents .box {
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 3px rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 10%);
+  color: #4a4a4a;
+  display: block;
+  padding: 1.25rem;
+}
+ 
+
+#main_container>section#sec_login .login_contents button {
+  width: 100%;
+  background-color: #ab09c3;
+  border-color: transparent;
+  color: #fff;  
+  font-family: "Poppins", sans-serif !important;
+  font-size: 1.5rem;
+}
+
+@media(max-width:1399.98px) {
+	
+
+  #main_container>section#sec_login {
+   /*  height:1160px; */
+   height:579px;
+   text-align: center;
+  }
+
+  #main_container>section#sec_login .sv_text {
+    position: relative;
+    width: 100%;
+    left: 0;
+    padding-top: 60px;
+    }
+    
+    #main_container>section#sec_login .sv_text>h2 {
+      max-width: 1280px;
+      margin: 0 auto;
+      text-align: center;
+      font-family: "Alfa Slab One", sans-serif;
+      font-size: 4rem;
+      letter-spacing: 0.5rem;
+      margin-bottom: 6rem;
+      color: #ab09c3;
+    }
+    
+    #main_container>section#sec_login .sv_text>h2 span {
+    font-weight: 300;
+    font-family: "Poppins", sans-serif !important;
+    }
+    
+    
+    #main_container>section#sec_login .er_text {
+      visibility: visible;
+      background-color: #ff3860;
+      color: #fff;
+      border-radius: 4px;
+      padding: 1.25rem 2.5rem 1.25rem 1.5rem;
+      position: relative;
+    }
+    
+    #main_container>section#sec_login .er_text p {
+      font-weight: 300;
+      font-family: "Poppins", sans-serif !important;
+    }
+    
+    #main_container>section#sec_login .stnft_item {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+    }
+  
+    #main_container>section#sec_login .login_contents {
+      /* margin-left: 33.33%; */
+      max-width: 1344px;
+      width: 500px;
+    }
+  
+    #main_container>section#sec_login .login_contents .box {
+      background-color: #fff;
+      border-radius: 6px;
+      box-shadow: 0 2px 3px rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 10%);
+      color: #4a4a4a;
+      display: block;
+      padding: 1.25rem;
+    }
+    
+  
+    #main_container>section#sec_login .login_contents button {
+      width: 100%;
+      background-color: #ab09c3;
+      border-color: transparent;
+      color: #fff;  
+      font-family: "Poppins", sans-serif !important;
+      font-size: 1.5rem;
+    }
+  }
+
+@media(max-width:991.98px) {	
+	
+  #header .head_side_lan {
+    margin-top: -4px;
+    margin-right: -104px;
+  }
+    #main_container>section#sec_login {
+    height:577px;
+    text-align: center;
+  }
+
+  #main_container>section#sec_login .sv_text {
+    position: relative;
+    width: 100%;
+    left: 0;
+    padding-top: 60px;
+    }
+  
+  #main_container>section#sec_login .sv_text>h2 {
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Alfa Slab One", sans-serif;
+    font-size: 4rem;
+    letter-spacing: 0.5rem;
+    margin-bottom: 6rem;
+	  color: #ab09c3;
+  }
+  
+  #main_container>section#sec_login .sv_text>h2 span {
+	font-weight: 300;
+	font-family: "Poppins", sans-serif !important;
+  }
+  
+  
+  #main_container>section#sec_login .er_text {
+    visibility: visible;
+    background-color: #ff3860;
+    color: #fff;
+    border-radius: 4px;
+    padding: 1.25rem 2.5rem 1.25rem 1.5rem;
+    position: relative;
+  }
+  
+  #main_container>section#sec_login .er_text p {
+    font-weight: 300;
+    font-family: "Poppins", sans-serif !important;
+  }
+  
+  #main_container>section#sec_login .stnft_item {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  #main_container>section#sec_login .login_contents {
+    margin-left: 20%;
+    max-width: 1344px;
+    width: 450px;
+  }
+
+  #main_container>section#sec_login .login_contents .box {
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 3px rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 10%);
+    color: #4a4a4a;
+    display: block;
+    padding: 1.25rem;
+  }
+  
+
+  #main_container>section#sec_login .login_contents button {
+    width: 100%;
+    background-color: #ab09c3;
+    border-color: transparent;
+    color: #fff;  
+    font-family: "Poppins", sans-serif !important;
+    font-size: 1.5rem;
+  }
+
+}
+
+@media(max-width:767.98px) {		
+
+  
+  #header .head_side_lan {
+    margin-top: -4px;
+    margin-right: -104px;
+  }
+  #main_container>section#sec_login {
+    height:529px;
+    text-align: center;
+  }
+
+  #main_container>section#sec_login .sv_text {
+    position: relative;
+    width: 100%;
+    left: 0;
+    padding-top: 60px;
+  }
+    
+    #main_container>section#sec_login .sv_text>h2 {
+      max-width: 1280px;
+      margin: 0 auto;
+      text-align: center;
+      font-family: "Alfa Slab One", sans-serif;
+      font-size: 4rem;
+      letter-spacing: 0.5rem;
+      margin-bottom: 6rem;
+      color: #ab09c3;
+    }
+    
+    #main_container>section#sec_login .sv_text>h2 span {
+    font-weight: 300;
+    font-family: "Poppins", sans-serif !important;
+    }
+    
+    
+    #main_container>section#sec_login .er_text {
+      visibility: visible;
+      background-color: #ff3860;
+      color: #fff;
+      border-radius: 4px;
+      padding: 0.5rem 2.5rem 0.5rem 1.5rem;
+      position: relative;
+    }
+    
+    #main_container>section#sec_login .er_text p {
+      font-weight: 300;
+      font-family: "Poppins", sans-serif !important;
+    }
+    
+    #main_container>section#sec_login .stnft_item {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+    }
+  
+    #main_container>section#sec_login .login_contents {
+      margin-left: 20%;
+      max-width: 1344px;
+      width: 409px;
+    }
+  
+    #main_container>section#sec_login .login_contents .box {
+      background-color: #fff;
+      border-radius: 6px;
+      box-shadow: 0 2px 3px rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 10%);
+      color: #4a4a4a;
+      /* display: block; */
+      padding: 1.25rem;
+    }
+    
+  
+    #main_container>section#sec_login .login_contents button {
+      width: 100%;
+      background-color: #ab09c3;
+      border-color: transparent;
+      color: #fff;  
+      font-family: "Poppins", sans-serif !important;
+      font-size: 1.5rem;
+    }
+  }
+
+@media(max-width:576.98px) {		
+
+  #header .head_side_lan {
+    margin-top: -4px;
+    margin-right: -104px;
+  }
+	#main_container>section#sec_login {
+    height:518px;
+    text-align: center;
+  }
+
+  #main_container>section#sec_login .sv_text {
+    position: relative;
+    width: 100%;
+    left: 0;
+    padding-top: 60px;
+  }
+  
+  #main_container>section#sec_login .sv_text>h2 {
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Alfa Slab One", sans-serif;
+    font-size: 4rem;
+    letter-spacing: 0.5rem;
+    margin-bottom: 6rem;
+	  color: #ab09c3;
+  }
+  
+  #main_container>section#sec_login .sv_text>h2 span {
+	font-weight: 300;
+	font-family: "Poppins", sans-serif !important;
+  }
+    
+  #main_container>section#sec_login .er_text {
+    visibility: visible;
+    background-color: #ff3860;
+    color: #fff;
+    border-radius: 4px;
+    padding: 0.25rem 1.5rem 0.25rem 0.5rem;
+    position: relative;
+  }
+  
+  #main_container>section#sec_login .er_text p {
+    font-weight: 300;
+    font-family: "Poppins", sans-serif !important;
+  }
+  
+  #main_container>section#sec_login .stnft_item {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 5;
+  }
+
+  #main_container>section#sec_login .login_contents {
+    margin-left: 12%;
+    max-width: 1344px;
+    width: 309px;
+    z-index: 1;
+  }
+
+  #main_container>section#sec_login .login_contents .box {
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 3px rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 10%);
+    color: #4a4a4a;
+    /* display: block; */
+    padding: 1.25rem;
+  }
+  
+
+  #main_container>section#sec_login .login_contents button {
+    width: 100%;
+    background-color: #ab09c3;
+    border-color: transparent;
+    color: #fff;  
+    font-family: "Poppins", sans-serif !important;
+    font-size: 1.5rem;
+  }
+}
+
+@media(max-width:357.98px) {		
+
+  #header .head_side_lan {
+    margin-top: -4px;
+    margin-right: -104px;
+  }
+  #main_container>section#sec_login .sv_text>h2 {
+    font-size: 3rem;
+  }
+  
+  #main_container>section#sec_login .sv_text>h2 span {
+	font-weight: 300;
+	font-family: "Poppins", sans-serif !important;
+  }
+    
+  #main_container>section#sec_login .er_text {
+    visibility: visible;
+    background-color: #ff3860;
+    color: #fff;
+    border-radius: 4px;
+    padding: 1.25rem 2.5rem 1.25rem 1.5rem;
+    position: relative;
+  }
+  
+  #main_container>section#sec_login .er_text p {
+    font-weight: 300;
+    font-family: "Poppins", sans-serif !important;
+  }
+  
+  #main_container>section#sec_login .stnft_item {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 5;
+  }
+
+  #main_container>section#sec_login .login_contents {
+    margin-left: 12%;
+    max-width: 1344px;
+    width: 248px;
+    z-index: 1;
+  }
+
+  #main_container>section#sec_login .login_contents .box {
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 3px rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 10%);
+    color: #4a4a4a;
+    /* display: block; */
+    padding: 1.25rem;
+  }
+  
+
+  #main_container>section#sec_login .login_contents button {
+    width: 100%;
+    background-color: #ab09c3;
+    border-color: transparent;
+    color: #fff;  
+    font-family: "Poppins", sans-serif !important;
+    font-size: 1.5rem;
+  }
+}
